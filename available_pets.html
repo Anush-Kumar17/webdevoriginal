@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="avilable.css">
+    <script>
+        function confirmPurchase(button) {
+            const link = button.getAttribute('llink');
+            const userConfirmed = confirm("Are you sure you want to Adopt this pet?");
+            
+            if (userConfirmed) {
+                window.location.href = link;
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <header class="one">
+        <h1>AVAILABLE PETS</h1>
+    </header>
+    <div class="container">
+        <div class="container1" id="con1">
+            <h3>Doppo</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+        <div class="container1" id="con2">
+            <h3>Zoe</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+        <div class="container1" id="con3">
+            <h3>Bunny</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+        <div class="container1" id="con4">
+            <h3>Dyna</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+        <div class="container1" id="con5">
+            <h3>Hammy</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+        <div class="container1" id="con6">
+            <h3>Kilua</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+        <div class="container1" id="con7">
+            <h3>Sheron</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+        <div class="container1" id="con8">
+            <h3>Kelly</h3>
+            <button onclick="confirmPurchase(this)" llink="http://127.0.0.1:5500/adoption.html">ADOPT!</button>
+        </div>
+</body>
+</html>

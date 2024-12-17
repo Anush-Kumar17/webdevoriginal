@@ -1,0 +1,47 @@
+body {
+    background-image:url("BG2.jpg") ;
+    background-size: cover;
+  }
+  .suc{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: blue;
+  }
+  
+  .content {
+    display: flex;
+    background-color: #ffffff;
+    margin: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+    border-radius: 30px;
+    width: auto;
+    transition: .5s;
+  }
+
+  .content:hover{
+    background-color: rgb(234, 234, 225);
+    transform: scale(1.1);
+  }
+  
+  .image-section {
+    text-align: center;
+    margin-right: 20px;
+
+  }
+  
+  .image-section img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+.description{
+    text-align: center;
+    padding: 60px;
+    background-color: rgb(27, 25, 25);
+    color: aqua;
+    border-radius: 30px;
+}
